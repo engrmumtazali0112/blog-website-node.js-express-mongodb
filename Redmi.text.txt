@@ -1,0 +1,73 @@
+show datbase in mongodb shell
+
+db.users.find({ _id: ObjectId("66e642803e8c291cf217dab6") })
+
+how to make dashboard user
+
+db.users.findOne({ _id: ObjectId("66e642803e8c291cf217dab6") })
+
+db.users.updateOne(
+  { _id: ObjectId("66e642803e8c291cf217dab6") },
+  { $set: { isAdmin: true } }
+)
+
+db.users.findOne({ _id: ObjectId("66e642803e8c291cf217dab6") })
+
+Create new user from Mongodb
+
+db.users.insertOne({
+  username: "ganikhan12"
+  password: "gani",
+  isAdmin: false
+});
+
+db.users.find({ username: "ganikhan12" }).pretty();
+
+now make it admin 
+
+db.users.updateOne(
+  { username: "ganikhan12" }, // Filter to find the user
+  { $set: { isAdmin: true } } // Update the isAdmin field to true
+);
+
+db.users.find({ username: "ganikhan12" }).pretty();
+
+
+
+
+With 2-3 years of experience in Python programming, RESTful APIs, User Authentication, Database Management, and web development, I have 
+honed my skills in creating professional and responsive web applications. My expertise extends across both backend and frontend technologies, 
+and I have utilized frameworks such as Django and Flask extensively.
+
+
+/** 
+* Paste one or more documents here
+*/
+{
+  "title": "Trends and Innovations",
+  "content": "In recent years, the landscape of work has undergone a dramatic transformation. As remote work becomes the new norm, it’s essential to stay informed about the latest trends and innovations shaping this dynamic environment. This blog post explores how technology is redefining remote work, from advancements in collaboration tools to the rise of virtual reality meetings. We’ll delve into how companies are adapting their strategies to accommodate a distributed workforce and the impact of these changes on employee productivity and well-being. Whether you’re a remote work veteran or just starting to embrace this new way of working, discover how to thrive in the evolving world of remote work and position yourself at the forefront of this exciting revolution.,
+  "author": {
+    "$oid": "66e7351b09fa69275c82eb16"
+  },
+  "createdAt": {
+    "$date": "2024-09-16T03:38:32.375Z"
+  },
+  "__v": 0
+}]
+
+
+db.users.insertOne({
+  username: "ganikhan12",
+  password: "$2a$10$examplehashedpassword", // Use the actual hashed password
+  isAdmin: false
+});
+
+db.users.find({ username: "ganikhan12" }).pretty();
+
+db.users.updateOne(
+  { username: "ganikhan12" },
+  { $set: { isAdmin: true } }
+);
+
+
+db.users.find({ username: "ganikhan12" }).pretty();
