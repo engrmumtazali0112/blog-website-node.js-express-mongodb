@@ -2,12 +2,57 @@
 
 # A dynamic, full-stack blog website built with Node.js, Express, and MongoDB.
 
-## Features
-- User authentication (register, login, logout)
-- Create, read, update, and delete blog posts
-- Upload images for blog posts
-- Admin dashboard for managing users and posts
-- Responsive design for mobile and desktop
+
+
+<h1 align="center">🌟 Modern Blog Website 🌟</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" />
+  <img src="https://img.shields.io/github/license/yourusername/blog-website.svg" />
+  <img src="https://img.shields.io/github/stars/yourusername/blog-website.svg" />
+  <img src="https://img.shields.io/github/forks/yourusername/blog-website.svg" />
+</p>
+<p align="center">
+  <b>A full-stack blog website built with Node.js, Express, and MongoDB.</b>
+</p>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#api-endpoints">API Endpoints</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/posts/mumtazali12_webdevelopment-nodejs-expressjs-activity-7241365274715725824-f6K4?utm_source=share&utm_medium=member_desktop">
+    <img src="https://img.shields.io/badge/View%20on-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="View on LinkedIn" />
+  </a>
+</p>
+Key Features
+
+- 🔐 User authentication (register/login)
+
+- ✏️ Create, read, update, and delete blog posts
+
+- 🖼️ Image upload for blog posts
+
+- 📱 Responsive design for mobile and desktop
+
+- 🖥️ Server-side rendering with EJS templates
+
+- 🔄 RESTful API architecture
+
+Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Passport-34E27A?style=for-the-badge&logo=passport&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+</p>
+
 
 
  ![1](https://github.com/user-attachments/assets/b0516a13-937a-488d-a97c-0b8358cd3a03)
